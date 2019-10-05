@@ -11,11 +11,15 @@ namespace MyLabTwo
         static void Main(string[] args)
         {
             // Set up Console UI (CUI)
-            Console.Title = "This is confusing to a new kid";
+            Console.Title = "SportsCars are Fun";
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.WriteLine("Without Visual References or Instructions, It's confusing to follow these assignments");
+            Console.WriteLine("Do you name your SportsCar?");
             Console.BackgroundColor = ConsoleColor.Black;
+
+            SportsCar myCar = new SportsCar();
+            myCar.PetName = "Lucy";
+            Console.WriteLine("My car's Petname is: {0}", myCar.GetPetName());
 
             // Wait for Enter key to be pressed.
             Console.ReadLine();

@@ -7,5 +7,9 @@ namespace MyLabTwo
 {
     public class SportsCar : Car
     {
+        public string GetPetName()
+        {
+            return PetName;
+        }
     }
 }

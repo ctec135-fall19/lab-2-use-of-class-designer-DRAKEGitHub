@@ -7,5 +7,6 @@ namespace MyLabTwo
 {
     public class Car
     {
+        public string PetName;
     }
 }
